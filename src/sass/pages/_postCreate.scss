@@ -1,0 +1,193 @@
+#postCreate {
+  background-color: rgb(37, 32, 32);
+  overflow-y: scroll;
+  height: 100%;
+}
+
+#postCreate::-webkit-scrollbar {
+  width: 1rem;
+}
+
+#postCreate #mainForm {
+  text-align: center;
+}
+
+/* fullscreen button */
+.postCreate-fullscreen {
+  background-color: rgb(37, 32, 32);
+  color: rgb(131, 118, 118);
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  outline: none;
+  border: none;
+}
+
+.postCreate-expand-image {
+  width: 32px;
+  height: 32px;
+}
+
+/* default input fields appearing on load */
+.postCreate-input-field {
+  font-family: monospace;
+  color: white;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  display: block;
+  width: 50rem;
+  height: 2rem;
+  background-color: rgba(54, 38, 38, 0);
+  border: none;
+}
+
+.postCreate-input-field:focus {
+  font-family: monospace;
+  color: white;
+  border-bottom: none;
+}
+
+#postCreate ::placeholder {
+  text-align: center;
+  font-family: monospace;
+  font-size: large;
+}
+
+.postCreate-text-area {
+  width: 50rem;
+  height: 20rem;
+}
+
+.postCreate-text-area::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.postCreate-text-area::-webkit-resizer {
+  background-color: rgb(37, 32, 32);
+}
+
+/* new input fields */
+.postCreate-new-field-input {
+  width: 50rem;
+}
+
+.postCreate-new-field-textarea::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.postCreate-new-field-textarea::-webkit-resizer {
+  background-color: rgb(37, 32, 32);
+}
+
+.postCreate-new-field-textarea {
+  width: 50rem;
+  height: 20rem;
+}
+
+.postCreate-main-form-submit-button {
+  background-color: rgb(119, 103, 103);
+  font-family: monospace;
+  font-size: larger;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  border-radius: 0.3rem;
+  padding: 10px;
+}
+
+.postCreate-main-form-submit-button i:nth-child(1) {
+  padding-right: 5px;
+}
+
+.postCreate-main-form-submit-button i:nth-child(2) {
+  text-align: center;
+  font-style: normal;
+  padding-bottom: 5px;
+}
+
+/* floating dock */
+.postCreate-floating-dock {
+  font-family: monospace;
+  font-size: 16px;
+  background-color: rgb(119, 103, 103);
+  width: 14rem;
+  height: auto;
+  position: fixed;
+  top: 5px;
+  left: -16rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  transition: 0.5s;
+  z-index: 1;
+  color: black;
+}
+
+.postCreate-floating-dock-icon {
+  color: rgb(131, 124, 124);
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
+.fa-times-circle {
+  // position: absolute;
+  margin-left: 10rem;
+}
+
+.postCreate-add-new-field {
+  font-size: large;
+  font-family: monospace;
+  background-color: rgba(54, 38, 38, 0);
+  box-shadow: 1px 1px 5px black;
+  margin: 0.3rem 0 0 1rem;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  outline: none;
+}
+
+#postCreate #fieldName {
+  background-color: rgb(119, 103, 103);
+  border: 0;
+  border-bottom: 1.5px solid black;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+#postCreate #fieldName::placeholder {
+  color: black;
+}
+
+#postCreate #fieldName:focus {
+  font-size: medium;
+  font-family: monospace;
+}
+
+#postCreate input[name="articleFeaturedPicture"] {
+  font-family: monospace;
+  width: 14rem;
+  margin: 1rem 0;
+}
+
+#postCreate #multiline {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#postCreate input[type="file"] {
+  border: 1px solid;
+}
+/* 
+.postCreate-article-featured-pic {
+  font-size: large;
+  font-family: monospace;
+  background-color: rgba(54, 38, 38, 0);
+  box-shadow: 1px 1px 5px black;
+  margin: 0.3rem 0 0 1rem;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  outline: none;
+} */

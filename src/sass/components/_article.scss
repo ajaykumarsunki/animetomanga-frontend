@@ -1,0 +1,44 @@
+.article {
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+  background-color: rgba($color: $color-black, $alpha: 0.8);
+  border: 1px solid $color-article-border;
+  border-radius: 0.5rem;
+  padding: 2rem;
+
+  &__genre {
+    font-size: 2.8rem;
+    color: $color-article-heading-special;
+    border-bottom: 1px solid $color-article-border;
+  }
+
+  &__series-title {
+    font-size: 2.5rem;
+    color: $color-article-subheading;
+  }
+
+  &__poster {
+    &--img {
+      width: 100%;
+      border-radius: 0.5rem;
+    }
+  }
+
+  &__text {
+    line-height: 2.5rem;
+
+    &--synopsis {
+      margin-bottom: 1rem;
+      border-bottom: 1px solid $color-article-border;
+      padding-bottom: 1rem;
+    }
+    &--review {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .subheading {
+    font-size: 2rem;
+    color: $color-article-subheading;
+  }
+}

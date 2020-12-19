@@ -1,0 +1,27 @@
+.body {
+  &__list {
+    position: relative;
+
+    &::after {
+      content: "";
+      background: url(img/bg-senjogahara.jpg);
+      opacity: 0.8;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: fixed;
+      z-index: -1;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  }
+}
+
+.section-articles {
+  color: $color-black;
+}
+
+main {
+  width: $main-width-medium;
+}

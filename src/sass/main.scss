@@ -1,0 +1,19 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/nav";
+@import "components/card";
+@import "components/article";
+
+@import "pages/home";
+@import "pages/mustSeeAnimeByGenre";
+@import "pages/postCreate";
+
+@import "layout/grid";
+@import "layout/list";

@@ -1,0 +1,37 @@
+nav {
+  margin-bottom: 2rem;
+  position: sticky;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav__menu {
+  list-style: none;
+  width: 95%;
+  display: flex;
+  font-size: 2.5rem;
+  justify-content: flex-start;
+  align-items: baseline;
+
+  &-item {
+    flex: 0 10% 1;
+    margin: 0 1.2rem;
+
+    a:link,
+    a:visited {
+      text-decoration: none;
+      color: $color-black;
+    }
+
+    &:last-child {
+      flex: 1;
+      align-self: flex-end;
+    }
+
+    &--search-input {
+      width: 0;
+      display: none;
+    }
+  }
+}

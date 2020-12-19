@@ -1,0 +1,26 @@
+.card {
+  margin: 0.2rem;
+  position: relative;
+  border-radius: 0.5rem;
+
+  &:first-child {
+    flex: 2 100%;
+  }
+
+  &:not(:first-child) {
+    flex: 1 48%;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__text {
+    position: absolute;
+    color: $color-white;
+    bottom: 1rem;
+    left: 2%;
+    width: 90%;
+    word-wrap: wrap;
+  }
+}

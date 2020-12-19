@@ -1,0 +1,13 @@
+.mustSeeAnimeByGenre {
+  background-color: rgba($color: $color-black, $alpha: 0.8);
+
+  .nav__menu {
+    &-item {
+      a:link,
+      a:visited {
+        text-decoration: none;
+        color: $color-white;
+      }
+    }
+  }
+}
